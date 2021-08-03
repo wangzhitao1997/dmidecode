@@ -1,0 +1,383 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALIGNMENT_WORKAROUND	config.h	26;"	d
+ARRAY_SIZE	util.h	25;"	d
+CC	Makefile	/^CC      = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS  = -W -Wall -Wshadow -Wstrict-prototypes -Wpointer-arith -Wcast-qual \\$/;"	m
+CONFIG_H	config.h	6;"	d
+DEFAULT_MEM_DEV	config.h	10;"	d
+DEFAULT_MEM_DEV	config.h	13;"	d
+DEFAULT_MEM_DEV	config.h	15;"	d
+DESTDIR	Makefile	/^DESTDIR =$/;"	m
+DMI_VENDORS	dmioem.c	/^enum DMI_VENDORS$/;"	g	file:
+DWORD	types.h	51;"	d
+DWORD	types.h	55;"	d
+EFI_NOT_FOUND	dmidecode.c	5461;"	d	file:
+EFI_NO_SMBIOS	dmidecode.c	5462;"	d	file:
+FLAG_COMPAT_UUID	dmiopt.h	49;"	d
+FLAG_DUMP	dmiopt.h	44;"	d
+FLAG_DUMP	vpdopt.h	41;"	d
+FLAG_DUMP_BIN	dmiopt.h	46;"	d
+FLAG_FROM_DUMP	dmiopt.h	47;"	d
+FLAG_HELP	biosdecode.c	81;"	d	file:
+FLAG_HELP	dmiopt.h	43;"	d
+FLAG_HELP	ownership.c	52;"	d	file:
+FLAG_HELP	vpdopt.h	40;"	d
+FLAG_NO_FILE_OFFSET	dmidecode.c	88;"	d	file:
+FLAG_NO_SYSFS	dmiopt.h	48;"	d
+FLAG_QUIET	dmiopt.h	45;"	d
+FLAG_QUIET	vpdopt.h	42;"	d
+FLAG_STOP_AT_EOT	dmidecode.c	89;"	d	file:
+FLAG_VERSION	biosdecode.c	80;"	d	file:
+FLAG_VERSION	dmiopt.h	42;"	d
+FLAG_VERSION	ownership.c	51;"	d	file:
+FLAG_VERSION	vpdopt.h	39;"	d
+INSTALL	Makefile	/^INSTALL         := install$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA    := $(INSTALL) -m 644$/;"	m
+INSTALL_DIR	Makefile	/^INSTALL_DIR     := $(INSTALL) -m 755 -d$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM := $(INSTALL) -m 755$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS =$/;"	m
+MACHINE	Makefile	/^MACHINE ?= $(shell uname -m 2>\/dev\/null)$/;"	m
+MAP_FAILED	util.c	36;"	d	file:
+PIR_FULL	biosdecode.c	84;"	d	file:
+PIR_SHORT	biosdecode.c	83;"	d	file:
+PROGRAMS	Makefile	/^PROGRAMS := dmidecode $(PROGRAMS-$(MACHINE))$/;"	m
+PROGRAMS-amd64	Makefile	/^PROGRAMS-amd64 := $(PROGRAMS-x86_64)$/;"	m
+PROGRAMS-i386	Makefile	/^PROGRAMS-i386 := biosdecode ownership vpddecode$/;"	m
+PROGRAMS-i486	Makefile	/^PROGRAMS-i486 := $(PROGRAMS-i386)$/;"	m
+PROGRAMS-i586	Makefile	/^PROGRAMS-i586 := $(PROGRAMS-i386)$/;"	m
+PROGRAMS-i686	Makefile	/^PROGRAMS-i686 := $(PROGRAMS-i386)$/;"	m
+PROGRAMS-x86_64	Makefile	/^PROGRAMS-x86_64 := biosdecode ownership vpddecode$/;"	m
+QWORD	types.h	52;"	d
+QWORD	types.h	56;"	d
+RM	Makefile	/^RM              := rm -f$/;"	m
+SUPPORTED_SMBIOS_VER	dmidecode.c	86;"	d	file:
+SYS_ENTRY_FILE	dmidecode.c	92;"	d	file:
+SYS_FIRMWARE_DIR	dmidecode.c	91;"	d	file:
+SYS_TABLE_FILE	dmidecode.c	93;"	d	file:
+TYPES_H	types.h	2;"	d
+U64	types.h	/^static inline u64 U64(u32 low, u32 high)$/;"	f
+USE_MMAP	config.h	21;"	d
+USE_SLOW_MEMCPY	config.h	31;"	d
+VENDOR_ACER	dmioem.c	/^	VENDOR_ACER,$/;"	e	enum:DMI_VENDORS	file:
+VENDOR_HP	dmioem.c	/^	VENDOR_HP,$/;"	e	enum:DMI_VENDORS	file:
+VENDOR_HPE	dmioem.c	/^	VENDOR_HPE,$/;"	e	enum:DMI_VENDORS	file:
+VENDOR_IBM	dmioem.c	/^	VENDOR_IBM,$/;"	e	enum:DMI_VENDORS	file:
+VENDOR_LENOVO	dmioem.c	/^	VENDOR_LENOVO,$/;"	e	enum:DMI_VENDORS	file:
+VENDOR_UNKNOWN	dmioem.c	/^	VENDOR_UNKNOWN,$/;"	e	enum:DMI_VENDORS	file:
+VERSION	version.h	1;"	d
+WORD	types.h	50;"	d
+WORD	types.h	54;"	d
+acpi_decode	biosdecode.c	/^static int acpi_decode(const u8 *p, size_t len)$/;"	f	file:
+acpi_length	biosdecode.c	/^static size_t acpi_length(const u8 *p)$/;"	f	file:
+acpi_revision	biosdecode.c	/^static const char *acpi_revision(u8 code)$/;"	f	file:
+address_from_efi	dmidecode.c	/^static int address_from_efi(off_t *address)$/;"	f	file:
+anchor	biosdecode.c	/^	const char *anchor;$/;"	m	struct:bios_entry	file:
+anchor_len	biosdecode.c	/^	size_t anchor_len; \/* computed *\/$/;"	m	struct:bios_entry	file:
+anchor_match	biosdecode.c	/^static int anchor_match(const struct bios_entry *entry, const char *p)$/;"	f	file:
+bad_index	dmidecode.c	/^static const char *bad_index = "<BAD INDEX>";$/;"	v	file:
+bios32_decode	biosdecode.c	/^static int bios32_decode(const u8 *p, size_t len)$/;"	f	file:
+bios32_length	biosdecode.c	/^static size_t bios32_length(const u8 *p)$/;"	f	file:
+bios_entries	biosdecode.c	/^static struct bios_entry bios_entries[] = {$/;"	v	typeref:struct:bios_entry	file:
+bios_entry	biosdecode.c	/^struct bios_entry {$/;"	s	file:
+checksum	util.c	/^int checksum(const u8 *buf, size_t len)$/;"	f
+compaq_decode	biosdecode.c	/^static int compaq_decode(const u8 *p, size_t len)$/;"	f	file:
+compaq_length	biosdecode.c	/^static size_t compaq_length(const u8 *p)$/;"	f	file:
+data	dmidecode.h	/^	u8 *data;$/;"	m	struct:dmi_header
+decode	biosdecode.c	/^	int (*decode)(const u8*, size_t);$/;"	m	struct:bios_entry	file:
+decode	ownership.c	/^static u32 decode(const u8 *p)$/;"	f	file:
+decode	vpddecode.c	/^static int decode(const u8 *p)$/;"	f	file:
+devmem	biosdecode.c	/^	const char *devmem;$/;"	m	struct:opt	file:
+devmem	dmiopt.h	/^	const char *devmem;$/;"	m	struct:opt
+devmem	ownership.c	/^	const char *devmem;$/;"	m	struct:opt	file:
+devmem	vpdopt.h	/^	const char *devmem;$/;"	m	struct:opt
+dmi_32bit_memory_error_address	dmidecode.c	/^static void dmi_32bit_memory_error_address(u32 code)$/;"	f	file:
+dmi_64bit_memory_error_address	dmidecode.c	/^static void dmi_64bit_memory_error_address(u64 code)$/;"	f	file:
+dmi_additional_info	dmidecode.c	/^static void dmi_additional_info(const struct dmi_header *h, const char *prefix)$/;"	f	file:
+dmi_address_decode	dmidecode.c	/^static const char *dmi_address_decode(u8 *data, char *storage, u8 addrtype)$/;"	f	file:
+dmi_address_type	dmidecode.c	/^static const char *dmi_address_type(u8 type)$/;"	f	file:
+dmi_base_board_features	dmidecode.c	/^static void dmi_base_board_features(u8 code, const char *prefix)$/;"	f	file:
+dmi_base_board_handles	dmidecode.c	/^static void dmi_base_board_handles(u8 count, const u8 *p, const char *prefix)$/;"	f	file:
+dmi_base_board_type	dmidecode.c	/^static const char *dmi_base_board_type(u8 code)$/;"	f	file:
+dmi_battery_capacity	dmidecode.c	/^static void dmi_battery_capacity(u16 code, u8 multiplier)$/;"	f	file:
+dmi_battery_chemistry	dmidecode.c	/^static const char *dmi_battery_chemistry(u8 code)$/;"	f	file:
+dmi_battery_maximum_error	dmidecode.c	/^static void dmi_battery_maximum_error(u8 code)$/;"	f	file:
+dmi_battery_voltage	dmidecode.c	/^static void dmi_battery_voltage(u16 code)$/;"	f	file:
+dmi_bcd_range	dmidecode.c	/^static int dmi_bcd_range(u8 value, u8 low, u8 high)$/;"	f	file:
+dmi_bios_characteristics	dmidecode.c	/^static void dmi_bios_characteristics(u64 code, const char *prefix)$/;"	f	file:
+dmi_bios_characteristics_x1	dmidecode.c	/^static void dmi_bios_characteristics_x1(u8 code, const char *prefix)$/;"	f	file:
+dmi_bios_characteristics_x2	dmidecode.c	/^static void dmi_bios_characteristics_x2(u8 code, const char *prefix)$/;"	f	file:
+dmi_bios_language_format	dmidecode.c	/^static const char *dmi_bios_language_format(u8 code)$/;"	f	file:
+dmi_bios_languages	dmidecode.c	/^static void dmi_bios_languages(const struct dmi_header *h, const char *prefix)$/;"	f	file:
+dmi_bios_rom_size	dmidecode.c	/^static void dmi_bios_rom_size(u8 code1, u16 code2)$/;"	f	file:
+dmi_bios_runtime_size	dmidecode.c	/^static void dmi_bios_runtime_size(u32 code)$/;"	f	file:
+dmi_cache_associativity	dmidecode.c	/^static const char *dmi_cache_associativity(u8 code)$/;"	f	file:
+dmi_cache_ec_type	dmidecode.c	/^static const char *dmi_cache_ec_type(u8 code)$/;"	f	file:
+dmi_cache_location	dmidecode.c	/^static const char *dmi_cache_location(u8 code)$/;"	f	file:
+dmi_cache_mode	dmidecode.c	/^static const char *dmi_cache_mode(u8 code)$/;"	f	file:
+dmi_cache_size	dmidecode.c	/^static void dmi_cache_size(u16 code)$/;"	f	file:
+dmi_cache_size_2	dmidecode.c	/^static void dmi_cache_size_2(u32 code)$/;"	f	file:
+dmi_cache_type	dmidecode.c	/^static const char *dmi_cache_type(u8 code)$/;"	f	file:
+dmi_cache_types	dmidecode.c	/^static void dmi_cache_types(u16 code, const char *sep)$/;"	f	file:
+dmi_chassis_elements	dmidecode.c	/^static void dmi_chassis_elements(u8 count, u8 len, const u8 *p, const char *prefix)$/;"	f	file:
+dmi_chassis_height	dmidecode.c	/^static void dmi_chassis_height(u8 code)$/;"	f	file:
+dmi_chassis_lock	dmidecode.c	/^static const char *dmi_chassis_lock(u8 code)$/;"	f	file:
+dmi_chassis_power_cords	dmidecode.c	/^static void dmi_chassis_power_cords(u8 code)$/;"	f	file:
+dmi_chassis_security_status	dmidecode.c	/^static const char *dmi_chassis_security_status(u8 code)$/;"	f	file:
+dmi_chassis_state	dmidecode.c	/^static const char *dmi_chassis_state(u8 code)$/;"	f	file:
+dmi_chassis_type	dmidecode.c	/^static const char *dmi_chassis_type(u8 code)$/;"	f	file:
+dmi_cooling_device_speed	dmidecode.c	/^static void dmi_cooling_device_speed(u16 code)$/;"	f	file:
+dmi_cooling_device_type	dmidecode.c	/^static const char *dmi_cooling_device_type(u8 code)$/;"	f	file:
+dmi_current_probe_resolution	dmidecode.c	/^static void dmi_current_probe_resolution(u16 code)$/;"	f	file:
+dmi_current_probe_value	dmidecode.c	/^static void dmi_current_probe_value(u16 code)$/;"	f	file:
+dmi_decode	biosdecode.c	/^static int dmi_decode(const u8 *p, size_t len)$/;"	f	file:
+dmi_decode	dmidecode.c	/^static void dmi_decode(const struct dmi_header *h, u16 ver)$/;"	f	file:
+dmi_decode_acer	dmioem.c	/^static int dmi_decode_acer(const struct dmi_header *h)$/;"	f	file:
+dmi_decode_hp	dmioem.c	/^static int dmi_decode_hp(const struct dmi_header *h)$/;"	f	file:
+dmi_decode_ibm_lenovo	dmioem.c	/^static int dmi_decode_ibm_lenovo(const struct dmi_header *h)$/;"	f	file:
+dmi_decode_oem	dmioem.c	/^int dmi_decode_oem(const struct dmi_header *h)$/;"	f
+dmi_dump	dmidecode.c	/^static void dmi_dump(const struct dmi_header *h, const char *prefix)$/;"	f	file:
+dmi_event_log_address	dmidecode.c	/^static void dmi_event_log_address(u8 method, const u8 *p)$/;"	f	file:
+dmi_event_log_descriptor_format	dmidecode.c	/^static const char *dmi_event_log_descriptor_format(u8 code)$/;"	f	file:
+dmi_event_log_descriptor_type	dmidecode.c	/^static const char *dmi_event_log_descriptor_type(u8 code)$/;"	f	file:
+dmi_event_log_descriptors	dmidecode.c	/^static void dmi_event_log_descriptors(u8 count, u8 len, const u8 *p, const char *prefix)$/;"	f	file:
+dmi_event_log_header_type	dmidecode.c	/^static const char *dmi_event_log_header_type(u8 code)$/;"	f	file:
+dmi_event_log_method	dmidecode.c	/^static const char *dmi_event_log_method(u8 code)$/;"	f	file:
+dmi_event_log_status	dmidecode.c	/^static void dmi_event_log_status(u8 code)$/;"	f	file:
+dmi_fixup_type_34	dmidecode.c	/^static void dmi_fixup_type_34(struct dmi_header *h, int display)$/;"	f	file:
+dmi_group_associations_items	dmidecode.c	/^static void dmi_group_associations_items(u8 count, const u8 *p, const char *prefix)$/;"	f	file:
+dmi_hardware_security_status	dmidecode.c	/^static const char *dmi_hardware_security_status(u8 code)$/;"	f	file:
+dmi_header	dmidecode.h	/^struct dmi_header$/;"	s
+dmi_ipmi_base_address	dmidecode.c	/^static void dmi_ipmi_base_address(u8 type, const u8 *p, u8 lsb)$/;"	f	file:
+dmi_ipmi_interface_type	dmidecode.c	/^static const char *dmi_ipmi_interface_type(u8 code)$/;"	f	file:
+dmi_ipmi_register_spacing	dmidecode.c	/^static const char *dmi_ipmi_register_spacing(u8 code)$/;"	f	file:
+dmi_length	biosdecode.c	/^static size_t dmi_length(const u8 *p)$/;"	f	file:
+dmi_management_controller_host_type	dmidecode.c	/^static const char *dmi_management_controller_host_type(u8 code)$/;"	f	file:
+dmi_management_device_address_type	dmidecode.c	/^static const char *dmi_management_device_address_type(u8 code)$/;"	f	file:
+dmi_management_device_type	dmidecode.c	/^static const char *dmi_management_device_type(u8 code)$/;"	f	file:
+dmi_mapped_address_extended_size	dmidecode.c	/^static void dmi_mapped_address_extended_size(u64 start, u64 end)$/;"	f	file:
+dmi_mapped_address_interleave_position	dmidecode.c	/^static void dmi_mapped_address_interleave_position(u8 code, const char *prefix)$/;"	f	file:
+dmi_mapped_address_interleaved_data_depth	dmidecode.c	/^static void dmi_mapped_address_interleaved_data_depth(u8 code, const char *prefix)$/;"	f	file:
+dmi_mapped_address_row_position	dmidecode.c	/^static void dmi_mapped_address_row_position(u8 code)$/;"	f	file:
+dmi_mapped_address_size	dmidecode.c	/^static void dmi_mapped_address_size(u32 code)$/;"	f	file:
+dmi_memory_array_ec_type	dmidecode.c	/^static const char *dmi_memory_array_ec_type(u8 code)$/;"	f	file:
+dmi_memory_array_error_handle	dmidecode.c	/^static void dmi_memory_array_error_handle(u16 code)$/;"	f	file:
+dmi_memory_array_location	dmidecode.c	/^static const char *dmi_memory_array_location(u8 code)$/;"	f	file:
+dmi_memory_array_use	dmidecode.c	/^static const char *dmi_memory_array_use(u8 code)$/;"	f	file:
+dmi_memory_channel_devices	dmidecode.c	/^static void dmi_memory_channel_devices(u8 count, const u8 *p, const char *prefix)$/;"	f	file:
+dmi_memory_channel_type	dmidecode.c	/^static const char *dmi_memory_channel_type(u8 code)$/;"	f	file:
+dmi_memory_controller_ec_capabilities	dmidecode.c	/^static void dmi_memory_controller_ec_capabilities(u8 code, const char *prefix)$/;"	f	file:
+dmi_memory_controller_ed_method	dmidecode.c	/^static const char *dmi_memory_controller_ed_method(u8 code)$/;"	f	file:
+dmi_memory_controller_interleave	dmidecode.c	/^static const char *dmi_memory_controller_interleave(u8 code)$/;"	f	file:
+dmi_memory_controller_slots	dmidecode.c	/^static void dmi_memory_controller_slots(u8 count, const u8 *p, const char *prefix)$/;"	f	file:
+dmi_memory_controller_speeds	dmidecode.c	/^static void dmi_memory_controller_speeds(u16 code, const char *prefix)$/;"	f	file:
+dmi_memory_device_extended_size	dmidecode.c	/^static void dmi_memory_device_extended_size(u32 code)$/;"	f	file:
+dmi_memory_device_form_factor	dmidecode.c	/^static const char *dmi_memory_device_form_factor(u8 code)$/;"	f	file:
+dmi_memory_device_set	dmidecode.c	/^static void dmi_memory_device_set(u8 code)$/;"	f	file:
+dmi_memory_device_size	dmidecode.c	/^static void dmi_memory_device_size(u16 code)$/;"	f	file:
+dmi_memory_device_speed	dmidecode.c	/^static void dmi_memory_device_speed(u16 code)$/;"	f	file:
+dmi_memory_device_type	dmidecode.c	/^static const char *dmi_memory_device_type(u8 code)$/;"	f	file:
+dmi_memory_device_type_detail	dmidecode.c	/^static void dmi_memory_device_type_detail(u16 code)$/;"	f	file:
+dmi_memory_device_width	dmidecode.c	/^static void dmi_memory_device_width(u16 code)$/;"	f	file:
+dmi_memory_error_granularity	dmidecode.c	/^static const char *dmi_memory_error_granularity(u8 code)$/;"	f	file:
+dmi_memory_error_operation	dmidecode.c	/^static const char *dmi_memory_error_operation(u8 code)$/;"	f	file:
+dmi_memory_error_syndrome	dmidecode.c	/^static void dmi_memory_error_syndrome(u32 code)$/;"	f	file:
+dmi_memory_error_type	dmidecode.c	/^static const char *dmi_memory_error_type(u8 code)$/;"	f	file:
+dmi_memory_manufacturer_id	dmidecode.c	/^static void dmi_memory_manufacturer_id(u16 code)$/;"	f	file:
+dmi_memory_module_connections	dmidecode.c	/^static void dmi_memory_module_connections(u8 code)$/;"	f	file:
+dmi_memory_module_error	dmidecode.c	/^static void dmi_memory_module_error(u8 code, const char *prefix)$/;"	f	file:
+dmi_memory_module_size	dmidecode.c	/^static void dmi_memory_module_size(u8 code)$/;"	f	file:
+dmi_memory_module_speed	dmidecode.c	/^static void dmi_memory_module_speed(u8 code)$/;"	f	file:
+dmi_memory_module_types	dmidecode.c	/^static void dmi_memory_module_types(u16 code, const char *sep)$/;"	f	file:
+dmi_memory_operating_mode_capability	dmidecode.c	/^static void dmi_memory_operating_mode_capability(u16 code)$/;"	f	file:
+dmi_memory_product_id	dmidecode.c	/^static void dmi_memory_product_id(u16 code)$/;"	f	file:
+dmi_memory_size	dmidecode.c	/^static void dmi_memory_size(u64 code)$/;"	f	file:
+dmi_memory_technology	dmidecode.c	/^static void dmi_memory_technology(u8 code)$/;"	f	file:
+dmi_memory_voltage_value	dmidecode.c	/^static void dmi_memory_voltage_value(u16 code)$/;"	f	file:
+dmi_oem_strings	dmidecode.c	/^static void dmi_oem_strings(const struct dmi_header *h, const char *prefix)$/;"	f	file:
+dmi_on_board_devices	dmidecode.c	/^static void dmi_on_board_devices(const struct dmi_header *h, const char *prefix)$/;"	f	file:
+dmi_on_board_devices_type	dmidecode.c	/^static const char *dmi_on_board_devices_type(u8 code)$/;"	f	file:
+dmi_parse_controller_structure	dmidecode.c	/^static void dmi_parse_controller_structure(const struct dmi_header *h,$/;"	f	file:
+dmi_parse_device_type	dmidecode.c	/^static const char *dmi_parse_device_type(u8 type)$/;"	f	file:
+dmi_parse_protocol_record	dmidecode.c	/^static void dmi_parse_protocol_record(const char *prefix, u8 *rec)$/;"	f	file:
+dmi_pointing_device_interface	dmidecode.c	/^static const char *dmi_pointing_device_interface(u8 code)$/;"	f	file:
+dmi_pointing_device_type	dmidecode.c	/^static const char *dmi_pointing_device_type(u8 code)$/;"	f	file:
+dmi_port_connector_type	dmidecode.c	/^static const char *dmi_port_connector_type(u8 code)$/;"	f	file:
+dmi_port_type	dmidecode.c	/^static const char *dmi_port_type(u8 code)$/;"	f	file:
+dmi_power_controls_power_on	dmidecode.c	/^static void dmi_power_controls_power_on(const u8 *p)$/;"	f	file:
+dmi_power_supply_power	dmidecode.c	/^static void dmi_power_supply_power(u16 code)$/;"	f	file:
+dmi_power_supply_range_switching	dmidecode.c	/^static const char *dmi_power_supply_range_switching(u8 code)$/;"	f	file:
+dmi_power_supply_status	dmidecode.c	/^static const char *dmi_power_supply_status(u8 code)$/;"	f	file:
+dmi_power_supply_type	dmidecode.c	/^static const char *dmi_power_supply_type(u8 code)$/;"	f	file:
+dmi_print_hp_net_iface_rec	dmioem.c	/^static void dmi_print_hp_net_iface_rec(u8 id, u8 bus, u8 dev, const u8 *mac)$/;"	f	file:
+dmi_print_memory_size	dmidecode.c	/^static void dmi_print_memory_size(u64 code, int shift)$/;"	f	file:
+dmi_probe_accuracy	dmidecode.c	/^static void dmi_probe_accuracy(u16 code)$/;"	f	file:
+dmi_probe_status	dmidecode.c	/^static const char *dmi_probe_status(u8 code)$/;"	f	file:
+dmi_processor_cache	dmidecode.c	/^static void dmi_processor_cache(u16 code, const char *level, u16 ver)$/;"	f	file:
+dmi_processor_characteristics	dmidecode.c	/^static void dmi_processor_characteristics(u16 code, const char *prefix)$/;"	f	file:
+dmi_processor_family	dmidecode.c	/^static const char *dmi_processor_family(const struct dmi_header *h, u16 ver)$/;"	f	file:
+dmi_processor_frequency	dmidecode.c	/^static void dmi_processor_frequency(const u8 *p)$/;"	f	file:
+dmi_processor_id	dmidecode.c	/^static void dmi_processor_id(const struct dmi_header *h, const char *prefix)$/;"	f	file:
+dmi_processor_status	dmidecode.c	/^static const char *dmi_processor_status(u8 code)$/;"	f	file:
+dmi_processor_type	dmidecode.c	/^static const char *dmi_processor_type(u8 code)$/;"	f	file:
+dmi_processor_upgrade	dmidecode.c	/^static const char *dmi_processor_upgrade(u8 code)$/;"	f	file:
+dmi_processor_voltage	dmidecode.c	/^static void dmi_processor_voltage(u8 code)$/;"	f	file:
+dmi_protocol_assignment_type	dmidecode.c	/^static const char *dmi_protocol_assignment_type(u8 type)$/;"	f	file:
+dmi_protocol_record_type	dmidecode.c	/^static const char *dmi_protocol_record_type(u8 type)$/;"	f	file:
+dmi_set_vendor	dmioem.c	/^void dmi_set_vendor(const char *s)$/;"	f
+dmi_slot_bus_width	dmidecode.c	/^static const char *dmi_slot_bus_width(u8 code)$/;"	f	file:
+dmi_slot_characteristics	dmidecode.c	/^static void dmi_slot_characteristics(u8 code1, u8 code2, const char *prefix)$/;"	f	file:
+dmi_slot_current_usage	dmidecode.c	/^static const char *dmi_slot_current_usage(u8 code)$/;"	f	file:
+dmi_slot_id	dmidecode.c	/^static void dmi_slot_id(u8 code1, u8 code2, u8 type, const char *prefix)$/;"	f	file:
+dmi_slot_length	dmidecode.c	/^static const char *dmi_slot_length(u8 code)$/;"	f	file:
+dmi_slot_segment_bus_func	dmidecode.c	/^static void dmi_slot_segment_bus_func(u16 code1, u8 code2, u8 code3, const char *prefix)$/;"	f	file:
+dmi_slot_type	dmidecode.c	/^static const char *dmi_slot_type(u8 code)$/;"	f	file:
+dmi_smbios_structure_type	dmidecode.c	/^static const char *dmi_smbios_structure_type(u8 code)$/;"	f	file:
+dmi_string	dmidecode.c	/^const char *dmi_string(const struct dmi_header *dm, u8 s)$/;"	f
+dmi_system_boot_status	dmidecode.c	/^static const char *dmi_system_boot_status(u8 code)$/;"	f	file:
+dmi_system_configuration_options	dmidecode.c	/^static void dmi_system_configuration_options(const struct dmi_header *h, const char *prefix)$/;"	f	file:
+dmi_system_reset_boot_option	dmidecode.c	/^static const char *dmi_system_reset_boot_option(u8 code)$/;"	f	file:
+dmi_system_reset_count	dmidecode.c	/^static void dmi_system_reset_count(u16 code)$/;"	f	file:
+dmi_system_reset_timer	dmidecode.c	/^static void dmi_system_reset_timer(u16 code)$/;"	f	file:
+dmi_system_uuid	dmidecode.c	/^static void dmi_system_uuid(const u8 *p, u16 ver)$/;"	f	file:
+dmi_system_wake_up_type	dmidecode.c	/^static const char *dmi_system_wake_up_type(u8 code)$/;"	f	file:
+dmi_table	dmidecode.c	/^static void dmi_table(off_t base, u32 len, u16 num, u32 ver, const char *devmem,$/;"	f	file:
+dmi_table_decode	dmidecode.c	/^static void dmi_table_decode(u8 *buf, u32 len, u16 num, u16 ver, u32 flags)$/;"	f	file:
+dmi_table_dump	dmidecode.c	/^static void dmi_table_dump(const u8 *buf, u32 len)$/;"	f	file:
+dmi_table_string	dmidecode.c	/^static void dmi_table_string(const struct dmi_header *h, const u8 *data, u16 ver)$/;"	f	file:
+dmi_temperature_probe_location	dmidecode.c	/^static const char *dmi_temperature_probe_location(u8 code)$/;"	f	file:
+dmi_temperature_probe_resolution	dmidecode.c	/^static void dmi_temperature_probe_resolution(u16 code)$/;"	f	file:
+dmi_temperature_probe_value	dmidecode.c	/^static void dmi_temperature_probe_value(u16 code)$/;"	f	file:
+dmi_tpm_characteristics	dmidecode.c	/^static void dmi_tpm_characteristics(u64 code, const char *prefix)$/;"	f	file:
+dmi_tpm_vendor_id	dmidecode.c	/^static void dmi_tpm_vendor_id(const u8 *p)$/;"	f	file:
+dmi_vendor	dmioem.c	/^static enum DMI_VENDORS dmi_vendor = VENDOR_UNKNOWN;$/;"	v	typeref:enum:DMI_VENDORS	file:
+dmi_voltage_probe_location	dmidecode.c	/^static const char *dmi_voltage_probe_location(u8 code)$/;"	f	file:
+dmi_voltage_probe_resolution	dmidecode.c	/^static void dmi_voltage_probe_resolution(u16 code)$/;"	f	file:
+dmi_voltage_probe_value	dmidecode.c	/^static void dmi_voltage_probe_value(u16 code)$/;"	f	file:
+docdir	Makefile	/^docdir  = $(prefix)\/share\/doc\/dmidecode$/;"	m
+dump	vpddecode.c	/^static void dump(const u8 *p, u8 len)$/;"	f	file:
+dumpfile	dmiopt.h	/^	char *dumpfile;$/;"	m	struct:opt
+fjkeyinf_decode	biosdecode.c	/^static int fjkeyinf_decode(const u8 *p, size_t len)$/;"	f	file:
+fjkeyinf_length	biosdecode.c	/^static size_t fjkeyinf_length(const u8 *p)$/;"	f	file:
+flags	biosdecode.c	/^	unsigned int flags;$/;"	m	struct:opt	file:
+flags	dmiopt.h	/^	unsigned int flags;$/;"	m	struct:opt
+flags	ownership.c	/^	unsigned int flags;$/;"	m	struct:opt	file:
+flags	vpdopt.h	/^	unsigned int flags;$/;"	m	struct:opt
+h	types.h	/^	u32 h;$/;"	m	struct:__anon1
+h	types.h	/^	u32 h;$/;"	m	struct:__anon2
+handle	dmidecode.h	/^	u16 handle;$/;"	m	struct:dmi_header
+handle	dmiopt.h	/^	u32 handle;$/;"	m	struct:opt
+high_address	biosdecode.c	/^	off_t high_address;$/;"	m	struct:bios_entry	file:
+i16	types.h	/^typedef signed short i16;$/;"	t
+is_printable	dmidecode.c	/^int is_printable(const u8 *data, int len)$/;"	f
+keyword	dmiopt.c	/^	const char *keyword;$/;"	m	struct:type_keyword	file:
+keyword	dmiopt.h	/^	const char *keyword;$/;"	m	struct:string_keyword
+keyword	vpdopt.h	/^	const char *keyword;$/;"	m	struct:string_keyword
+l	types.h	/^	u32 l;$/;"	m	struct:__anon1
+l	types.h	/^	u32 l;$/;"	m	struct:__anon2
+legacy_decode	dmidecode.c	/^static int legacy_decode(u8 *buf, const char *devmem, u32 flags)$/;"	f	file:
+len	vpdopt.h	/^	size_t len;$/;"	m	struct:string_keyword
+length	biosdecode.c	/^	size_t (*length)(const u8 *);$/;"	m	struct:bios_entry	file:
+length	dmidecode.h	/^	u8 length;$/;"	m	struct:dmi_header
+low_address	biosdecode.c	/^	off_t low_address;$/;"	m	struct:bios_entry	file:
+main	biosdecode.c	/^int main(int argc, char * const argv[])$/;"	f
+main	dmidecode.c	/^int main(int argc, char * const argv[])$/;"	f
+main	ownership.c	/^int main(int argc, char * const argv[])$/;"	f
+main	vpddecode.c	/^int main(int argc, char * const argv[])$/;"	f
+man8dir	Makefile	/^man8dir = $(mandir)\/man8$/;"	m
+mandir	Makefile	/^mandir  = $(prefix)\/share\/man$/;"	m
+mem_chunk	util.c	/^void *mem_chunk(off_t base, size_t len, const char *devmem)$/;"	f
+mp_decode	biosdecode.c	/^static int mp_decode(const u8 *p, size_t len)$/;"	f	file:
+mp_length	biosdecode.c	/^static size_t mp_length(const u8 *p)$/;"	f	file:
+myread	util.c	/^static int myread(int fd, u8 *buf, size_t count, const char *prefix)$/;"	f	file:
+offset	dmiopt.h	/^	u8 offset;$/;"	m	struct:string_keyword
+offset	vpdopt.h	/^	off_t offset;$/;"	m	struct:string_keyword
+opt	biosdecode.c	/^static struct opt opt;$/;"	v	typeref:struct:opt	file:
+opt	biosdecode.c	/^struct opt$/;"	s	file:
+opt	dmiopt.c	/^struct opt opt;$/;"	v	typeref:struct:opt
+opt	dmiopt.h	/^struct opt$/;"	s
+opt	ownership.c	/^static struct opt opt;$/;"	v	typeref:struct:opt	file:
+opt	ownership.c	/^struct opt$/;"	s	file:
+opt	vpdopt.c	/^struct opt opt;$/;"	v	typeref:struct:opt
+opt	vpdopt.h	/^struct opt$/;"	s
+opt_oem_string_keyword	dmiopt.c	/^static struct string_keyword opt_oem_string_keyword =$/;"	v	typeref:struct:string_keyword	file:
+opt_string_keyword	dmiopt.c	/^static const struct string_keyword opt_string_keyword[] = {$/;"	v	typeref:struct:string_keyword	file:
+opt_string_keyword	vpdopt.c	/^static const struct string_keyword opt_string_keyword[] = {$/;"	v	typeref:struct:string_keyword	file:
+opt_type_baseboard	dmiopt.c	/^static const u8 opt_type_baseboard[] = { 2, 10, 41, 255 };$/;"	v	file:
+opt_type_bios	dmiopt.c	/^static const u8 opt_type_bios[] = { 0, 13, 255 };$/;"	v	file:
+opt_type_cache	dmiopt.c	/^static const u8 opt_type_cache[] = { 7, 255 };$/;"	v	file:
+opt_type_chassis	dmiopt.c	/^static const u8 opt_type_chassis[] = { 3, 255 };$/;"	v	file:
+opt_type_connector	dmiopt.c	/^static const u8 opt_type_connector[] = { 8, 255 };$/;"	v	file:
+opt_type_keyword	dmiopt.c	/^static const struct type_keyword opt_type_keyword[] = {$/;"	v	typeref:struct:type_keyword	file:
+opt_type_memory	dmiopt.c	/^static const u8 opt_type_memory[] = { 5, 6, 16, 17, 255 };$/;"	v	file:
+opt_type_processor	dmiopt.c	/^static const u8 opt_type_processor[] = { 4, 255 };$/;"	v	file:
+opt_type_slot	dmiopt.c	/^static const u8 opt_type_slot[] = { 9, 255 };$/;"	v	file:
+opt_type_system	dmiopt.c	/^static const u8 opt_type_system[] = { 1, 12, 15, 23, 32, 255 };$/;"	v	file:
+out_of_spec	dmidecode.c	83;"	d	file:
+overwrite_dmi_address	dmidecode.c	/^static void overwrite_dmi_address(u8 *buf)$/;"	f	file:
+overwrite_smbios3_address	dmidecode.c	/^static void overwrite_smbios3_address(u8 *buf)$/;"	f	file:
+ownership	ownership.c	/^static void ownership(u32 base, const char *pname, const char *devmem)$/;"	f	file:
+parse_command_line	biosdecode.c	/^static int parse_command_line(int argc, char * const argv[])$/;"	f	file:
+parse_command_line	dmiopt.c	/^int parse_command_line(int argc, char * const argv[])$/;"	f
+parse_command_line	ownership.c	/^static int parse_command_line(int argc, char * const argv[])$/;"	f	file:
+parse_command_line	vpdopt.c	/^int parse_command_line(int argc, char * const argv[])$/;"	f
+parse_opt_handle	dmiopt.c	/^static u32 parse_opt_handle(const char *arg)$/;"	f	file:
+parse_opt_oem_string	dmiopt.c	/^static int parse_opt_oem_string(const char *arg)$/;"	f	file:
+parse_opt_string	dmiopt.c	/^static int parse_opt_string(const char *arg)$/;"	f	file:
+parse_opt_string	vpdopt.c	/^static int parse_opt_string(const char *arg)$/;"	f	file:
+parse_opt_type	dmiopt.c	/^static u8 *parse_opt_type(u8 *p, const char *arg)$/;"	f	file:
+pir	biosdecode.c	/^	unsigned char pir;$/;"	m	struct:opt	file:
+pir_decode	biosdecode.c	/^static int pir_decode(const u8 *p, size_t len)$/;"	f	file:
+pir_irqs	biosdecode.c	/^static void pir_irqs(u16 code)$/;"	f	file:
+pir_length	biosdecode.c	/^static size_t pir_length(const u8 *p)$/;"	f	file:
+pir_link_bitmap	biosdecode.c	/^static void pir_link_bitmap(char letter, const u8 *p)$/;"	f	file:
+pir_slot_number	biosdecode.c	/^static void pir_slot_number(u8 code)$/;"	f	file:
+pnp_decode	biosdecode.c	/^static int pnp_decode(const u8 *p, size_t len)$/;"	f	file:
+pnp_event_notification	biosdecode.c	/^static const char *pnp_event_notification(u8 code)$/;"	f	file:
+pnp_length	biosdecode.c	/^static size_t pnp_length(const u8 *p)$/;"	f	file:
+prefix	Makefile	/^prefix  = \/usr\/local$/;"	m
+print_entry	vpddecode.c	/^static void print_entry(const char *name, const u8 *p, size_t len)$/;"	f	file:
+print_help	biosdecode.c	/^static void print_help(void)$/;"	f	file:
+print_help	dmiopt.c	/^void print_help(void)$/;"	f
+print_help	ownership.c	/^static void print_help(void)$/;"	f	file:
+print_help	vpdopt.c	/^void print_help(void)$/;"	f
+print_opt_string_list	dmiopt.c	/^static void print_opt_string_list(void)$/;"	f	file:
+print_opt_string_list	vpdopt.c	/^static void print_opt_string_list(void)$/;"	f	file:
+print_opt_type_list	dmiopt.c	/^static void print_opt_type_list(void)$/;"	f	file:
+read_file	util.c	/^void *read_file(off_t base, size_t *max_len, const char *filename)$/;"	f
+safe_memcpy	util.c	/^static void safe_memcpy(void *dest, const void *src, size_t n)$/;"	f	file:
+sbindir	Makefile	/^sbindir = $(prefix)\/sbin$/;"	m
+smbios3_decode	biosdecode.c	/^static int smbios3_decode(const u8 *p, size_t len)$/;"	f	file:
+smbios3_decode	dmidecode.c	/^static int smbios3_decode(u8 *buf, const char *devmem, u32 flags)$/;"	f	file:
+smbios3_length	biosdecode.c	/^static size_t smbios3_length(const u8 *p)$/;"	f	file:
+smbios_decode	biosdecode.c	/^static int smbios_decode(const u8 *p, size_t len)$/;"	f	file:
+smbios_decode	dmidecode.c	/^static int smbios_decode(u8 *buf, const char *devmem, u32 flags)$/;"	f	file:
+smbios_length	biosdecode.c	/^static size_t smbios_length(const u8 *p)$/;"	f	file:
+sony_decode	biosdecode.c	/^static int sony_decode(const u8 *p, size_t len)$/;"	f	file:
+sony_length	biosdecode.c	/^static size_t sony_length(const u8 *p)$/;"	f	file:
+string	dmiopt.h	/^	const struct string_keyword *string;$/;"	m	struct:opt	typeref:struct:opt::string_keyword
+string	vpdopt.h	/^	const struct string_keyword *string;$/;"	m	struct:opt	typeref:struct:opt::string_keyword
+string_keyword	dmiopt.h	/^struct string_keyword$/;"	s
+string_keyword	vpdopt.h	/^struct string_keyword$/;"	s
+sysid_decode	biosdecode.c	/^static int sysid_decode(const u8 *p, size_t len)$/;"	f	file:
+sysid_length	biosdecode.c	/^static size_t sysid_length(const u8 *p)$/;"	f	file:
+to_dmi_header	dmidecode.c	/^static void to_dmi_header(struct dmi_header *h, u8 *data)$/;"	f	file:
+type	dmidecode.h	/^	u8 type;$/;"	m	struct:dmi_header
+type	dmiopt.c	/^	const u8 *type;$/;"	m	struct:type_keyword	file:
+type	dmiopt.h	/^	u8 *type;$/;"	m	struct:opt
+type	dmiopt.h	/^	u8 type;$/;"	m	struct:string_keyword
+type_keyword	dmiopt.c	/^struct type_keyword$/;"	s	file:
+u16	types.h	/^typedef unsigned short u16;$/;"	t
+u32	types.h	/^typedef unsigned int u32;$/;"	t
+u64	types.h	/^} u64;$/;"	t	typeref:struct:__anon1
+u64	types.h	/^} u64;$/;"	t	typeref:struct:__anon2
+u64_range	util.c	/^u64 u64_range(u64 start, u64 end)$/;"	f
+u8	types.h	/^typedef unsigned char u8;$/;"	t
+vpd_decode	biosdecode.c	/^static int vpd_decode(const u8 *p, size_t len)$/;"	f	file:
+vpd_length	biosdecode.c	/^static size_t vpd_length(const u8 *p)$/;"	f	file:
+vpd_print_entry	biosdecode.c	/^static void vpd_print_entry(const char *name, const u8 *p, size_t len)$/;"	f	file:
+write_dump	util.c	/^int write_dump(size_t base, size_t len, const void *data, const char *dumpfile, int add)$/;"	f
